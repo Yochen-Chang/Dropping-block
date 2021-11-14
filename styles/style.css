@@ -54,6 +54,10 @@ ul {
           align-items: center;
 }
 
+.unselect {
+  opacity: 0.5;
+}
+
 #demo {
   margin: 3rem auto;
   width: 15rem;
@@ -68,11 +72,7 @@ ul {
   height: 5rem;
 }
 
-.demoBlock.active {
-  background-color: red;
-}
-
-#demoShow {
+#demoContext {
   text-align: center;
   font-size: 1rem;
   margin-bottom: 2rem;
@@ -80,12 +80,19 @@ ul {
 
 .floatingBlock {
   position: absolute;
+}
+
+.redBlock {
+  width: 5rem;
+  height: 5rem;
   background-color: red;
   border: black 1px solid;
 }
 
-.testblock {
+.blueBlock {
   width: 5rem;
   height: 5rem;
+  background-color: blue;
+  border: black 1px solid;
 }
 /*# sourceMappingURL=style.css.map */

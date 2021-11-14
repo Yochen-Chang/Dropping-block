@@ -31,6 +31,9 @@ ul {
   justify-content: center;
   align-items: center;
 }
+.unselect {
+  opacity: 0.5;
+}
 
 // Demo
 #demo {
@@ -44,21 +47,24 @@ ul {
   background-color: wheat;
   width: 5rem;
   height: 5rem;
-  &.active {
-    background-color: red;
-  }
 }
-#demoShow {
+#demoContext {
   text-align: center;
   font-size: 1rem;
   margin-bottom: 2rem;
 }
 .floatingBlock {
   position: absolute;
+}
+.redBlock {
+  width: 5rem;
+  height: 5rem;
   background-color: red;
   border: black 1px solid;
 }
-.testblock {
+.blueBlock {
   width: 5rem;
   height: 5rem;
+  background-color: blue;
+  border: black 1px solid;
 }
